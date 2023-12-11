@@ -20,7 +20,7 @@
       button.addEventListener('click', () => {
         // When there is a "click"
         // it shows an alert in the browser
-        alert('Oh, you clicked me!')
+        alert('No')
       })
 
       document.body.appendChild(button)
