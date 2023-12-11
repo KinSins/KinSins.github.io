@@ -22,7 +22,7 @@
         // it shows an alert in the browser
         alert('No')
       })
-  <a>KinSins.github.io/main.html<a>
+  (top=500,left=500,width=400,height=400")
       document.body.appendChild(button)
     </script>
   </body>
