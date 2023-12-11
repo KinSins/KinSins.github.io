@@ -23,7 +23,7 @@
         alert('No')
       })
       <button> <a>("https:KinSins.github.io/main.html")<a>
-  (top=5,left=5")
+  
       document.body.appendChild(button)
     </script>
   </body>
