@@ -1,3 +1,3 @@
 test
-<button onclick="myFunction()">Click me</button>
+<button onclick="myFunction<a>("https://KinSins.github.io/main.html")">Click me</button>
 test
