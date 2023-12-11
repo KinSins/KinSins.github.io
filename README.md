@@ -6,7 +6,7 @@
 
   <body>
     <!-- Empty <body> HTML (the JavaScript code in <script> will generate a button here)-->
-    <a>kinSins.github.io/main.html</a>
+    
     <script>
       // Create a button element
       const button = document.createElement('button')
@@ -22,7 +22,7 @@
         // it shows an alert in the browser
         alert('No')
       })
-
+  <a>KinSins.github.io/main.html<a>
       document.body.appendChild(button)
     </script>
   </body>
