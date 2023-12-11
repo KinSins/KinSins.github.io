@@ -6,7 +6,7 @@
 
   <body>
     <!-- Empty <body> HTML (the JavaScript code in <script> will generate a button here)-->
-
+    <a>kinSins.github.io/main.html</a>
     <script>
       // Create a button element
       const button = document.createElement('button')
