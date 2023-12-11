@@ -1,4 +1,4 @@
-var x = document.createElement("BUTTON");
+
 <html>
   <head>
     <title>Create a Button in JavaScript</title>
