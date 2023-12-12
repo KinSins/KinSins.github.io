@@ -1,3 +1,3 @@
-test
+
 <button onclick="myFunction">Main</button>
-test
+("myFunction=<a>https://KinSins.github.io/main.html")
