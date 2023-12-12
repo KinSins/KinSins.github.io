@@ -1,9 +1,9 @@
 var baseLayout = {
-    title: 'Watermark Template',
+    title: 'Test',
     // items with a `name` attribute in template.images will be added to any
     // plot using this template
     images: [{
-        name: 'watermark_1',
+        name: 'Test_1',
         source: "https://raw.githubusercontent.com/michaelbabyn/plot_data/master/benzene.png",
         xref: "paper",
         yref: "paper",
@@ -15,7 +15,7 @@ var baseLayout = {
         layer: "below"
       },
       {
-          name: 'watermark_2',
+          name: 'Test_2',
           source: "https://raw.githubusercontent.com/michaelbabyn/plot_data/master/naphthalene.png",
           xref: "paper",
           yref: "paper",
@@ -42,11 +42,10 @@ var layoutUsingTemplate = {
   images: [
     {
       // set the second watermark in the template to be invisible
-      templateitemname: 'watermark_2',
+      templateitemname: 'Test_2',
       visible: false
     }
   ]
 };
 
 Plotly.newPlot("myDiv", data, layoutUsingTemplate);
-
