@@ -1,3 +1,7 @@
+<button id="myButton" class="float-left submit-button" >Home</button>
 
-<button onclick="myFunction">Main</button>
-("myFunction=<a>https://KinSins.github.io/main.html")
+<script type="text/javascript">
+    document.getElementById("myButton").onclick = function () {
+        location.href = "https://KinSins.github.io/main.html";
+    };
+</script>
