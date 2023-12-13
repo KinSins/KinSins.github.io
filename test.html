@@ -1,20 +1,33 @@
-<html> 
+<div class="row">
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-user"></i></p>
+      <h3>11+</h3>
+      <p>displaying...</p>
+    </div>
+  </div>
 
-@property --num {
-  syntax: '<integer>';
-  initial-value: 0;
-  inherits: false;
-}
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-check"></i></p>
+      <h3>55+</h3>
+      <p>decripting..</p>
+    </div>
+  </div>
 
-div {
-  transition: --num 1s;
-  counter-reset: num var(--num);
-}
-div:hover {
-  --num: 100000000;
-}
-div::after {
-  content: counter(num);
-}
-  </integer>
-</html>
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-smile-o"></i></p>
+      <h3>100+</h3>
+      <p>Loading..</p>
+    </div>
+  </div>
+
+  <div class="column">
+    <div class="card">
+      <p><i class="fa fa-coffee"></i></p>
+      <h3>1009+</h3>
+      <p>buying..</p>
+    </div>
+  </div>
+</div>
