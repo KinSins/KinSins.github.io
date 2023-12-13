@@ -1,33 +1,23 @@
-<div class="row">
-  <div class="column">
-    <div class="card">
-      <p><i class="fa fa-user"></i></p>
-      <h3>11+</h3>
-      <p>displaying...</p>
+<!DOCTYPE html>
+<html lang="en">
+ 
+<body style="text-align:center">
+    <h1>files Loaded</h1>
+    <p>COUNTS</p>
+    <div id="counter">
+        <!-- counts -->
     </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <p><i class="fa fa-check"></i></p>
-      <h3>55+</h3>
-      <p>decripting..</p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <p><i class="fa fa-smile-o"></i></p>
-      <h3>100+</h3>
-      <p>Loading..</p>
-    </div>
-  </div>
-
-  <div class="column">
-    <div class="card">
-      <p><i class="fa fa-coffee"></i></p>
-      <h3>1009+</h3>
-      <p>buying..</p>
-    </div>
-  </div>
-</div>
+ 
+    <script>
+        let counts = setInterval(updated);
+        let upto = 0;
+        function updated() {
+            let count = document.getElementById("counter");
+            count.innerHTML = ++upto;
+            if (upto === 100000) {
+                clearInterval(counts);
+            }
+        }
+    </script>
+</body>
+</html>
