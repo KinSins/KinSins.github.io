@@ -2,6 +2,6 @@
 
 <script type="text/javascript">
     document.getElementById("myButton").onclick = function () {
-        location.href = "https://KinSins.github.io/1";
+        location.href = "https://KinSins.github.io/1.html";
     };
 </script>
