@@ -2,19 +2,19 @@
 <html lang="en">
  
 <body style="text-align:center">
-    <h1>files Loaded</h1>
-    <p>COUNTS</p>
+    <h1>files Loading</h1>
+    <p>Loaded</p>
     <div id="counter">
         <!-- counts -->
     </div>
  
     <script>
         let counts = setInterval(updated);
-        let upto = 0;
+        let upto = 1;
         function updated() {
             let count = document.getElementById("counter");
             count.innerHTML = ++upto;
-            if (upto === 100000) {
+            if (upto === 10000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000) {
                 clearInterval(counts);
             }
         }
